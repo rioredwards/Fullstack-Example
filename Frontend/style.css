@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-image: linear-gradient(180deg, #ebb38a 0%, #f0ac71 100%);
+  background-color: #f0ac71;
+  color: #404040;
+  font-family: "Comfortaa", sans-serif;
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 4rem;
+}
+
+h1 {
+  font-family: "Noto Sans", sans-serif;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+div {
+  width: 20rem;
+  margin-bottom: 1.5rem;
+  border: 2px solid #dba16e;
+  border-radius: 2px;
+}
+
+section {
+  width: 20rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+button,
+input,
+li {
+  font-size: 1rem;
+  padding: 0.5rem;
+  height: 2.75rem;
+}
+
+input {
+  background-color: #f8f8f8;
+  border: 2px solid #5a5a5a;
+  border-radius: 0.5rem;
+  flex-grow: 1;
+}
+
+input::placeholder {
+  color: #7c7c7c;
+}
+
+input:hover,
+input:focus {
+  background-color: #ffffff;
+}
+
+button {
+  color: #f4b071;
+  background-color: #404040;
+  padding: 0.75rem 1.2rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #343434;
+  color: #f4b071;
+}
+
+ul {
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  list-style: none;
+}
+
+li {
+  background-color: #85dbea;
+  margin-bottom: 0.5rem;
+  border: 1px solid #323232;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+li:hover {
+  background-color: #7dd7e1;
+}
