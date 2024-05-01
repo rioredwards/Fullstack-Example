@@ -9,4 +9,4 @@
 7. Run `npm start` to start the server
 8. Done! 🎉
 
-Note: To verify it's working, try using the frontend application in your browser. There should already be todos loaded from the database, and you should be able to add new todos.
+Note: To verify it's working, try using the frontend application in your browser. You will probably need to reload the window, then you should see todos displaying from the database. You should be able to add new todos.
