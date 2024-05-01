@@ -61,8 +61,8 @@ formEl.addEventListener("submit", async (e) => {
   todos.unshift(data);
   // Call our render function to re-render the HTML with the new todo
   render();
-  // Clear the input element, so that the user can type in a new todo
-  inputEl.value = "";
+  // Reset the form so the input field is empty
+  formEl.reset();
 });
 
 // This function renders the todos to the screen
