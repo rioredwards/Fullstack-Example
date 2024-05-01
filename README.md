@@ -5,7 +5,7 @@
 3. In your terminal, run `cd backend`
 4. Then run `npm install`
 5. Rename the .env.example file to .env
-6. In the .env file, replace `your_db_username` and `your_db_password` with the actual username and password of your database
+6. In the .env file, replace `your_db_username` and `your_db_password` with the actual username and password of your database (Ask me, Rio, for my credentials if you just wanna use my database)
 7. Run `npm start` to start the server
 8. Done! 🎉
 
